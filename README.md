@@ -17,5 +17,3 @@
 5. 响应式的页面
 在markdown里面设置图片大小，直接用img标签，设置width.
 http://js.jirengu.com/puzegurawa/5/edit
-
-6. 
