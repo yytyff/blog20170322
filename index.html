@@ -1,9 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>我的页面</title>
-    这是内容 ，内容很丰富。
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.js">
+  </script>
+  <link rel="stylesheet" href="http://typo.sofi.sh/typo.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <style>
+    body {
+      padding:16px;
+    }
+    img {
+      max-width:100%;
+    }
+  </style>
 </head>
 <body>
+<div id="content">
+  # 我的第一篇博客
+ **yytyff**
+
+ __有志者事竟成——xx__
+
+大家好，今天学习markdown.
+
+  <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490774126&di=795635c229bd5eee66354877ea64e087&imgtype=jpg&er=1&src=http%3A%2F%2Fstatic.wgpet.com%2Feditor%2Fattached%2Fimage%2F20141008%2F20141008234023_50652.jpg"> 
+</div>
+ 
+  <script>
+    var content = document.getElementById('content')
+    var markdown = content.innerHTML
+    var html = marked(markdown)
+    content.innerHTML = html
+   console.log(html)  
+   
+  </script>
 </body>
 </html>
+
+
+
+
+
+
+
