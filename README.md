@@ -11,3 +11,5 @@
   </script>
   ```
 3. http://js.jirengu.com/puzegurawa/3/edit
+
+4. 添加样式：http://typo.sofi.sh/typo.css
