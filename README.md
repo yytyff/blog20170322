@@ -3,9 +3,9 @@
 ## markdown转变成html
 1. https://cdnjs.com/libraries/marked
 
-2. http://js.jirengu.com/puzegurawa/1/edit?html,output
+2. http://js.jirengu.com/puzegurawa/3/edit
 
-3. 粘贴
+3. 粘贴 
 ```
  <script>
     document.getElementById('content').innerHTML =
